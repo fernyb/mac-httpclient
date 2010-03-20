@@ -13,6 +13,7 @@
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C4420C1111552587000FC032 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4420C1011552587000FC032 /* WebKit.framework */; };
 		D30DDFAA0F3E92BD00274E93 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DDFA90F3E92BD00274E93 /* Sparkle.framework */; };
 		D30DDFB50F3E92CC00274E93 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D30DDFA90F3E92BD00274E93 /* Sparkle.framework */; };
 		D30DDFB80F3E92D700274E93 /* httpclient_dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D30DDFB70F3E92D700274E93 /* httpclient_dsa_pub.pem */; };
@@ -69,6 +70,7 @@
 		32DBCF750370BD2300C91783 /* HTTPClient_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient_Prefix.pch; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* HTTP Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HTTP Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4420C1011552587000FC032 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		D30DDFA90F3E92BD00274E93 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		D30DDFB70F3E92D700274E93 /* httpclient_dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = httpclient_dsa_pub.pem; path = res/httpclient_dsa_pub.pem; sourceTree = "<group>"; };
 		D357D48E0EE6233A009D62AE /* HCWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCWindowController.h; path = src/HCWindowController.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				D357D5630EE63376009D62AE /* Security.framework in Frameworks */,
 				D385FFA80F0615EB00DB2946 /* TDParseKit.framework in Frameworks */,
 				D30DDFAA0F3E92BD00274E93 /* Sparkle.framework in Frameworks */,
+				C4420C1111552587000FC032 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +142,7 @@
 				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
 				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
 				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				C4420C1011552587000FC032 /* WebKit.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";

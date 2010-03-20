@@ -6,10 +6,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
+
 
 @protocol HTTPService;
 @class TDSourceCodeTextView;
 @class TDHtmlSyntaxHighlighter;
+
 
 @interface HCWindowController : NSWindowController {
     IBOutlet NSComboBox *URLComboBox;
@@ -21,6 +24,7 @@
     IBOutlet TDSourceCodeTextView *responseTextView;
     IBOutlet NSScrollView *requestScrollView;
     IBOutlet NSScrollView *responseScrollView;
+    IBOutlet WebView * responseWebView;
     IBOutlet NSArrayController *headersController;
     id <HTTPService>service;
     

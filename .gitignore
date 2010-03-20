@@ -1,2 +1,6 @@
+HTTPClient.xcodeproj/*.mode1v3
+HTTPClient.xcodeproj/*.pbxuser
 .svn
 .svn/*
+build
+build/*

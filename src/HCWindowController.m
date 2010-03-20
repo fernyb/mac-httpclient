@@ -491,6 +491,16 @@
     [self playSuccessSound];
 	[[HCHistoryManager instance] add:[cmd objectForKey:@"finalURLString"]];
     [self requestCompleted:cmd];
+  
+ 
+  NSArray * parts = [rawResponse componentsSeparatedByString:@"\r\n\r\n"];
+  
+  if([parts count] > 1) {
+    NSURL * baseURL = [[NSURL URLWithString:[cmd objectForKey:@"URLString"]] baseURL];
+    NSString * body = [parts objectAtIndex:1];
+    
+    [[responseWebView mainFrame] loadHTMLString:body baseURL:baseURL];
+  }
 }
 
 
